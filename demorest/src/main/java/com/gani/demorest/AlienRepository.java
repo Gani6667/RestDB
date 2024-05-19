@@ -17,7 +17,7 @@ public class AlienRepository
     {
         String url = "jdbc:mysql://localhost:3306/restdb";
         String username = "root";
-        String password = "6667";
+        String password = "";
         try 
         {
             Class.forName("com.mysql.jdbc.Driver");
